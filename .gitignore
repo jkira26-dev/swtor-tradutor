@@ -1,0 +1,26 @@
+# Ignore arquivos compilados do Python
+__pycache__/
+*.pyc
+
+# Ignore pastas de build do PyInstaller
+build/
+dist/
+*.spec
+
+# Ignore arquivos temporários ou de sistema
+.vscode/
+.idea/
+*.log
+
+# Ignore bancos de dados gigantes ou arquivos do jogo
+# (O GitHub tem um limite de 100MB por arquivo. Não upe o .db3 ou .tor diretamente)
+db/*.db3
+db/*.tor
+db/*.gfx
+*.tor
+
+# Ignora pastas de testes locais (opcional)
+decompiled_src/
+decompiled_src2/
+SWTORLocalization_git/
+swtor_loc.zip
