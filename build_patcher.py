@@ -4,9 +4,8 @@ import sqlite3
 import glob
 import html
 
-sys.path.append("patcher_br")
-from myp_parser import MYPArchive, load_hash_list
-from stb_parser import STBFile
+from patcher_br.myp_parser import MYPArchive, load_hash_list
+from patcher_br.stb_parser import STBFile
 
 def run_patcher(game_path, logger=print):
     # Determine base path for data files (handles both script and PyInstaller .exe execution)
